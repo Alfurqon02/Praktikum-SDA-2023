@@ -2,7 +2,7 @@
 
 <h1 align="center"> Praktikum Struktur Data dan Algoritma - S1 Informatika UNS </h1>
 <p align ="center">  <img width = "440" height "248" src = "https://github.com/Alfurqon02/Praktikum-SDA-2023/blob/main/Material/cover.jpg" </p>
-<h3 align="center"> Tahun Ajaran 2022/2023 Semester Gneap </h3>
+<h3 align="center"> Tahun Ajaran 2022/2023 Semester Genap </h3>
 <h3 align ="center">  >> <a align = "center" href = "#"> <span align="center">Lihat Materi</span></a> << </h3>
 <h2> Tim Asisten Dosen : </h2>
 
@@ -12,7 +12,7 @@
 
 <h2> Overview </h2>
 Struktur data dan algoritma adalah dua konsep dasar dalam ilmu pemrograman yang penting dalam menulis sebuah program yang efisien dan efektif.
-
+<br>
 Struktur data digunakan untuk mengatur dan menyimpan data dengan cara membuatnya mudah diakses dan dimanipulasi. Ada banyak jenis struktur data yang berbeda, termasuk didalamnya array, stack, list, tree, dan masih banyak lagi. 
 
 Algoritma sendiri adalah petunjuk langkah demi langkah yang diupayakan untuk memecahkan masalah tertentu. Ada banyak algoritma yang berbeda untuk memecahkan berbagai masalah, seperti sorting, searching, dan graph traversal.
