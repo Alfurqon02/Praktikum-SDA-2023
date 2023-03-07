@@ -11,10 +11,10 @@
 - Tulus Toto Raharjo (M0521078) - Informatika 21 [Kelas C]
 
 <h2> Overview </h2>
-Struktur data dan algoritma adalah dua konsep dasar dalam ilmu pemrograman yang penting dalam menulis sebuah program yang efisien dan efektif.
-<br>
-Struktur data digunakan untuk mengatur dan menyimpan data dengan cara membuatnya mudah diakses dan dimanipulasi. Ada banyak jenis struktur data yang berbeda, termasuk didalamnya array, stack, list, tree, dan masih banyak lagi. 
+<p> Struktur data dan algoritma adalah dua konsep dasar dalam ilmu pemrograman yang penting dalam menulis sebuah program yang efisien dan efektif. </p>
 
-Algoritma sendiri adalah petunjuk langkah demi langkah yang diupayakan untuk memecahkan masalah tertentu. Ada banyak algoritma yang berbeda untuk memecahkan berbagai masalah, seperti sorting, searching, dan graph traversal.
+<p> Struktur data digunakan untuk mengatur dan menyimpan data dengan cara membuatnya mudah diakses dan dimanipulasi. Ada banyak jenis struktur data yang berbeda, termasuk didalamnya array, stack, list, tree, dan masih banyak lagi. </p>
 
-Setiap struktur data dan algoritma memiliki kelebihan dan kekurangannya masing-masing sehingga memilih struktu data yang tepat untuk masalah tertentu dapat memberikan efek yang signifikan terhadap performa program yang dibuat.
+<p> Algoritma sendiri adalah petunjuk langkah demi langkah yang diupayakan untuk memecahkan masalah tertentu. Ada banyak algoritma yang berbeda untuk memecahkan berbagai masalah, seperti sorting, searching, dan graph traversal. </p>
+
+<p> Setiap struktur data dan algoritma memiliki kelebihan dan kekurangannya masing-masing sehingga memilih struktu data yang tepat untuk masalah tertentu dapat memberikan efek yang signifikan terhadap performa program yang dibuat.</p>
