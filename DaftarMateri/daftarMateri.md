@@ -1,11 +1,11 @@
-<h1>Daftar Materi Praktikum Konsep Pemrograman</h1>
+<h1>Daftar Materi Praktikum Struktur Data dan Algoritma</h1>
 
 - Bab 1 - #
     1. [#]
     2. [#]
     3. [#]
 
-- Bab 2 - #
-    1. [#]
+- Bab 2 - List, Stack, Queue
+    1. [List](Bab2-List, Stack, Queue/list.md)
     2. [#]
     3. [#]
