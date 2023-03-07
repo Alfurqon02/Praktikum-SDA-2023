@@ -6,6 +6,6 @@
 <h3 align ="center">  >> <a align = "center" href = "#"> <span align="center">Lihat Materi</span></a> << </h3>
 <h2> Tim Asisten Dosen : </h2>
 
-- Mohammad Al Furqon (M0521044) - Informatika 21
-- Tulus Toto Raharjo (M0521078) - Informatika 21
-- Alfiki Diastama Afan Firdaus (M0521009) - Informatika 21
+- Alfiki Diastama Afan Firdaus (M0521009) - Informatika 21 [Kelas A]
+- Mohammad Al Furqon (M0521044) - Informatika 21 [Kelas B]
+- Tulus Toto Raharjo (M0521078) - Informatika 21 [Kelas C]
