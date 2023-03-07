@@ -6,6 +6,6 @@
     3. [#]
 
 - Bab 2 - List, Stack, Queue
-    1. [List](Bab2-List, Stack, Queue/list.md)
+    1. [List](Bab2-ListStackQueue/list.md)
     2. [#]
     3. [#]
