@@ -1,8 +1,6 @@
-# Praktikum-SDA-2023
-
 <h1 align="center"> Praktikum Struktur Data dan Algoritma - S1 Informatika UNS </h1>
 <p align ="center">  <img width = "440" height "248" src = "https://github.com/Alfurqon02/Praktikum-SDA-2023/blob/main/Material/cover.jpg" </p>
-<h3 align="center"> Tahun Ajaran 2022/2023 Semester Genap </h3>
+<h3 align="center"> Tahun Akademik 2022/2023 Semester Genap </h3>
 <h3 align ="center">  >> <a align = "center" href = "https://github.com/Alfurqon02/Praktikum-SDA-2023/blob/main/daftarMateri.md"> <span align="center">Lihat Materi</span></a> << </h3>
 <h2> Tim Asisten Dosen : </h2>
 
