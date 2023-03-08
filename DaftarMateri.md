@@ -1,7 +1,7 @@
 <h1>Daftar Materi Praktikum Struktur Data dan Algoritma</h1>
 
 - Bab 0 - Kontrak Praktikum
-    1. [Kontrak Praktikum](Bab1-KontrakPraktikum/1-KontrakPraktikum.md)
+    1. [Kontrak Praktikum](Bab0-KontrakPraktikum/1-KontrakPraktikum.md)
 
 - Bab 1 - List, Stack, Queue
     1. [List](Bab1-ListStackQueue/1-list.md)
