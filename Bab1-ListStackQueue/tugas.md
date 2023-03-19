@@ -12,6 +12,7 @@ Ikuti langkah-langkah berikut **(bobot: 40%)**:
 1. Buatlah list untuk menyimpan data berupa sekumpulan string: **Rambutan**, **Jambu**, **Jeruk**, **Melon**, **Semangka**, **Durian**
 2. Bagi list menjadi 2 bagian (list1 dan list2), lalu hapus Jambu dari list1 dan Durian dari list2
 3. Setelah itu, tampilkan isi dari kedua list tersebut
+
 Contoh Output: 
 ```
 Seluruh List:
