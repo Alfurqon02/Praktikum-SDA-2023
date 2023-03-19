@@ -37,7 +37,7 @@ Anda boleh menggunakan array list (std::vector) ataupun linked list (std::list)
 
 Selesaikan permasalahan di bawah menggunakan stack **(bobot: 30%)**:
 
-Ronald memiliki tumpukan komik sebagai berikut (urut dari posisi teratas):
+Ronald memiliki tumpukan buku sebagai berikut (urut dari posisi teratas):
 
 - Implementation of Linear Algebra
 - Data Structure and Algorithm 2nd Edition
@@ -50,7 +50,7 @@ Ronald memiliki tumpukan komik sebagai berikut (urut dari posisi teratas):
 - Database Management System (Beginner Edition)
 
 
-Suatu saat Ronald ingin merapikan tumpukan buku tersebut agar terurut dan menjual buku berjudul **Introduction to OpenCV Library (Pyton)** sehingga tumpukan buku tersebut menjadi seperti berikut:
+Suatu saat Ronald ingin mengurutkan tumpukan buku tersebut agar terurut dan menjual buku berjudul **Introduction to OpenCV Library (Pyton)** sehingga tumpukan buku tersebut menjadi seperti berikut:
 
 - Linear Algebra and Its Applications
 - Implementation of Linear Algebra
