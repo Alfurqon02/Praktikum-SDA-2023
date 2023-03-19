@@ -43,7 +43,7 @@ Ronald memiliki tumpukan komik sebagai berikut (urut dari posisi teratas):
 - Linear Algebra and Its Applications
 - Introduction to OpenCV Library (Pyton)
 - Introduction to Machine Learning
-- Data Structure and Algorithm 1nd Edition
+- Data Structure and Algorithm 1st Edition
 - Machine Learning
 - Database Management System (Expert Edition)
 - Database Management System (Beginner Edition)
@@ -55,7 +55,7 @@ Suatu saat Ronald ingin merapikan tumpukan buku tersebut agar terurut dan menjua
 - Implementation of Linear Algebra
 - Introduction to Machine Learning
 - Machine Learning Implementation
-- Data Structure and Algorithm 1nd Edition
+- Data Structure and Algorithm 1st Edition
 - Data Structure and Algorithm 2nd Edition
 - Database Management System (Beginner Edition)
 - Database Management System (Expert Edition)
