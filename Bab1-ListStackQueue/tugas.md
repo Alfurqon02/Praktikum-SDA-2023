@@ -61,6 +61,7 @@ Suatu saat Ronald ingin merapikan tumpukan buku tersebut agar terurut dan menjua
 - Database Management System (Expert Edition)
 
 Buatlah program yang mensimulasikan permasalahan tersebut menggunakan stack! Program tidak harus menampilkan isi stack ke layar ataupun menerima input. Asisten akan menilai ketepatan dari source code yang dibuat.
+
 **DILARANG KERAS MEMBUAT ULANG STACK**
 
 ## No. 3 - Queue
