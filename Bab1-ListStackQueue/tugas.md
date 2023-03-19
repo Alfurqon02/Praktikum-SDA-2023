@@ -4,15 +4,17 @@ NOTE
 
 1. Gunakan bahasa **C++**
 2. Kumpulkan semua source code pada assignment Google Classroom **(jangan di-ZIP)**, diberi format: **NamaKelas_PSDA01_NIM_NamaLengkap_Nomor Soal.cpp**, 
-misal **B_PSDA01_M0520047_MohammadAlFurqon_1.cpp** apabila mengumpulkan nomor 1
+
+   misal apabila mengumpulkan nomor 1 : **B_PSDA01_M0520047_MohammadAlFurqon_1.cpp**
 
 ## No. 1 - List
 
 Ikuti langkah-langkah berikut **(bobot: 40%)**:
 
 1. Buatlah list untuk menyimpan data berupa sekumpulan string: **Rambutan**, **Jambu**, **Jeruk**, **Melon**, **Semangka**, **Durian**
-2. Bagi list menjadi 2 bagian (list1 dan list2), lalu hapus Jambu dari list1 dan Durian dari list2
-3. Setelah itu, tampilkan isi dari kedua list tersebut
+2. Bagi list menjadi 2 bagian (list1 dan list2), dengan isi list1 : **Rambutan**, **Jambu**, **Jeruk** dan isi list2 : **Melon**, **Semangka**, **Durian**
+3. Lalu hapus **Jambu** dari list1 dan **Durian** dari list2
+4. Setelah itu, tampilkan isi dari kedua list tersebut
 
 Contoh Output: 
 ```
@@ -42,7 +44,7 @@ Ronald memiliki tumpukan buku sebagai berikut (urut dari posisi teratas):
 - Implementation of Linear Algebra
 - Data Structure and Algorithm 2nd Edition
 - Linear Algebra and Its Applications
-- Introduction to OpenCV Library (Pyton)
+- Introduction to OpenCV Library (Python)
 - Introduction to Machine Learning
 - Data Structure and Algorithm 1st Edition
 - Machine Learning
@@ -50,7 +52,7 @@ Ronald memiliki tumpukan buku sebagai berikut (urut dari posisi teratas):
 - Database Management System (Beginner Edition)
 
 
-Suatu saat Ronald ingin mengurutkan tumpukan buku tersebut agar terurut dan menjual buku berjudul **Introduction to OpenCV Library (Pyton)** sehingga tumpukan buku tersebut menjadi seperti berikut:
+Suatu saat Ronald ingin mengurutkan tumpukan buku tersebut agar terurut dan menjual buku berjudul **Introduction to OpenCV Library (Python)** sehingga tumpukan buku tersebut menjadi seperti berikut:
 
 - Linear Algebra and Its Applications
 - Implementation of Linear Algebra
