@@ -57,7 +57,7 @@ Suatu saat Ronald ingin mengurutkan tumpukan buku tersebut agar terurut dan menj
 - Linear Algebra and Its Applications
 - Implementation of Linear Algebra
 - Introduction to Machine Learning
-- Machine Learning Implementation
+- Machine Learning
 - Data Structure and Algorithm 1st Edition
 - Data Structure and Algorithm 2nd Edition
 - Database Management System (Beginner Edition)
