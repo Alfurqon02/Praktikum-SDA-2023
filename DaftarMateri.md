@@ -10,3 +10,6 @@
 
 - Bab 2 - Rekursi
     1. [Rekursi](Bab2-Rekursi/1-rekursi.md)
+
+- Bab 3 - Analisis Kompleksitas
+    1. [Analisis Kompleksitas](https://github.com/Alfurqon02/Praktikum-SDA-2023/blob/main/Bab3-AnalisisKompleksitas/1-analisis-kompleksitas.md)
