@@ -2,7 +2,7 @@
 
 Queue adalah struktur data FIFO (first-in-first-out) atau FCFS (first-come-first-serve) yang artinya elemen yang dimasukkan pertama, ialah yang pertama kali harus keluar, sama halnya dengan antrean. Perhatikan contoh ilustrasi di bawah:
 
-![Ilustrasi](https://img.freepik.com/free-vector/people-waiting-queue-bank-machine_74855-4458.jpg?size=626&ext=jpg&ga=GA1.2.1411813280.1638403200)
+![Ilustrasi](https://img.freepik.com/free-vector/people-waiting-queue-bank-machine_74855-4458.jpg?size=626&ext=jpg&ga=GA1.2.1411813280.1638403200) 
 
 Dalam bahasa C++, queue dapat diakses melalui header `<queue>` dan memanfaatkan linked list sebagai tempat penyimpanannya.
 
