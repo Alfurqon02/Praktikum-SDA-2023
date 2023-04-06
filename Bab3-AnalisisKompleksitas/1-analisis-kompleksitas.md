@@ -98,7 +98,7 @@ x = log(N)
 
 ## 3 - Perbandingan Pertumbuhan Kompleksitas
 
-![Gambar perbandingan kompleksitas]([https://blog.mbedded.ninja/programming/algorithms-and-data-structures/algorithm-time-complexity/big-o-notation-algorithm-complexity-non-weighted.png](https://miro.medium.com/max/2880/1*2g9RTxbOTKj-vfHZp6-Dtw.png))
+![Gambar perbandingan kompleksitas]((https://miro.medium.com/max/2880/1*2g9RTxbOTKj-vfHZp6-Dtw.png))
 
 Pengembangan algoritma idealnya diusahakan mendapatkan kompleksitas O(1) atau O(logn). Sayangnya pada kenyataannya kita tidak akan selalu mendapatkan kompleksitas terbaik dalam merancang algoritma. Jika tidak dapat mencapai kompleksitas maksimal, hal terbaik yang dapat kita lakukan ketika mengembangkan solusi dari masalah adalah melihat apakah masalah yang ada dapat diselesaikan dengan algoritma yang ada terlebih dahulu, sebelum mengembangkan algoritma baru. Hal ini memastikan kita mendapatkan kompleksitas yang paling efisien sampai saat pengembangan solusi.
 
