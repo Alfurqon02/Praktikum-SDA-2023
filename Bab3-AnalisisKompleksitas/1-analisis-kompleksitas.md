@@ -100,7 +100,7 @@ Jadi, langkah total = O(N / 2 * log (N)) = O(N*logN)
 
 ## 3 - Perbandingan Pertumbuhan Kompleksitas
 
-![Gambar perbandingan kompleksitas](https://miro.medium.com/max/2880/1*2g9RTxbOTKj-vfHZp6-Dtw.png)
+![Gambar perbandingan kompleksitas](https://i.ytimg.com/vi/XiGedDZGOM8/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLCoZ7k4wh3HCXJkQQ0zw_wgCF8ymw)
 
 Pengembangan algoritma idealnya diusahakan mendapatkan kompleksitas O(1) atau O(logn). Sayangnya pada kenyataannya kita tidak akan selalu mendapatkan kompleksitas terbaik dalam merancang algoritma. Jika tidak dapat mencapai kompleksitas maksimal, hal terbaik yang dapat kita lakukan ketika mengembangkan solusi dari masalah adalah melihat apakah masalah yang ada dapat diselesaikan dengan algoritma yang ada terlebih dahulu, sebelum mengembangkan algoritma baru. Hal ini memastikan kita mendapatkan kompleksitas yang paling efisien sampai saat pengembangan solusi.
 
