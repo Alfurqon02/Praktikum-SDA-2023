@@ -18,7 +18,7 @@ Terdapat beberapa jenis notasi asimtotik, tetapi kita hanya akan menggunakan dan
 
 ## 2 - Contoh Kriteria Kompleksitas
 
-### O(1)
+### O(1): Konstan
 
 ```cpp
 // ...
@@ -28,7 +28,7 @@ cout << "Hello, world!" << endl;
 
 Dalam kode di atas "Hello, world!" mencetak hanya sekali di layar. Jadi, kompleksitas waktu adalah konstan: O(1) yaitu setiap kali jumlah waktu yang konstan diperlukan untuk mengeksekusi kode, apa pun sistem operasi atau konfigurasi mesin yang Anda gunakan.
 
-### O(N)
+### O(N): Linear
 
 ```cpp
 // ...
@@ -41,7 +41,7 @@ for (i = 1; i <= n; i++) {
 
 Dalam kode di atas "Hello, world!" akan mencetak N kali. Jadi, kompleksitas waktu dari kode di atas adalah O(N).
 
-### O(N^2)
+### O(N^2): Kuadratik
 
 ```cpp
 // ...
@@ -60,7 +60,23 @@ Kode di atas berjalan total
 = 1/2 N^2 + 1/2 N  
 O(N^2) kali.
 
-### O(N log N)
+### O (log N): Logartimik
+
+```cpp
+// ...
+int a = 0, i = N;
+while (i > 0) {
+	a += i;
+	i /= 2;
+}
+// ...
+```
+
+Kita harus mencari x terkecil sehingga N / 2^x N
+x = log(N)
+
+
+### O(N log N): Linearitmik
 
 ```cpp
 // ...
@@ -81,20 +97,6 @@ Jadi, j akan dijalankan untuk langkah-langkah O(log N).
 i berjalan selama N/2 langkah.  
 Jadi, langkah total = O(N / 2 * log (N)) = O(N*logN)
 
-### (log N)
-
-```cpp
-// ...
-int a = 0, i = N;
-while (i > 0) {
-	a += i;
-	i /= 2;
-}
-// ...
-```
-
-Kita harus mencari x terkecil sehingga N / 2^x N
-x = log(N)
 
 ## 3 - Perbandingan Pertumbuhan Kompleksitas
 
