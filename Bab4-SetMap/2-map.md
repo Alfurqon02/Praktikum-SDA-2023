@@ -21,49 +21,49 @@ std::map<std::string, Mahasiswa> data_mhs;
 
 ### Assignment
 
-Mengaitkan mahasiswa dengan indeks **M0520047** dengan obyek dari struct pada map `data_mhs`:
+Mengaitkan mahasiswa dengan indeks **M0525025** dengan obyek dari struct pada map `data_mhs`:
 ```c++
 Mahasiswa mhs;
-mhs.nama = "Michael Raditya Krisnadhi";
+mhs.nama = "Bella Aster Kevia";
 mhs.prodi = "Informatika";
-mhs.angkatan = 2020;
-data_mhs["M0520047"] = mhs;
+mhs.angkatan = 2025;
+data_mhs["M0525025"] = mhs;
 ```
 
 ### Access
 
-Mendapatkan obyek mahasiswa dengan indeks **M0520047** dari map `data_mhs`:
+Mendapatkan obyek mahasiswa dengan indeks **M0525025** dari map `data_mhs`:
 ```c++
-Mahasiswa mhs = data_mhs["M0520047"];
+Mahasiswa mhs = data_mhs["M0525025"];
 std::cout << "Nama: " << mhs.nama << std::endl;
 std::cout << "Prodi: " << mhs.prodi << std::endl;
 std::cout << "Angkatan: " << mhs.angkatan << std::endl;
 ```
 
-Untuk memaninpulasi obyek mahasiswa dengan indeks **M0520047** dalam map `data_mhs`:
+Untuk memaninpulasi obyek mahasiswa dengan indeks **M0525025** dalam map `data_mhs`:
 ```c++
-data_mhs["M0520047"].nama = "Miko";
+data_mhs["M0525025"].nama = "Bella";
 
 // atau menggunakan reference:
 
-Mahasiswa &mhs = data_mhs["M0520047"];
-mhs.nama = "Miko";
+Mahasiswa &mhs = data_mhs["M0525025"];
+mhs.nama = "Bella";
 ```
 
-Mengecek apakah mahasiswa dengan indeks **M0520047** berada dalam `data_mhs`:
+Mengecek apakah mahasiswa dengan indeks **M0525025** berada dalam `data_mhs`:
 ```c++
-if (data_mhs.count("M0520047") == 1) {
-    std::cout << "M0520047 merupakan mahasiswa UNS" << std::endl;
+if (data_mhs.count("M0525025") == 1) {
+    std::cout << "M0525025 merupakan mahasiswa UNS" << std::endl;
 } else {
-    std::cout << "M0520047 bukan merupakan mahasiswa UNS" << std::endl;
+    std::cout << "M0525025 bukan merupakan mahasiswa UNS" << std::endl;
 }
 ```
 
 ### Removal
 
-Menghapus **M0520047** dari `data_mhs`:
+Menghapus **M0525025** dari `data_mhs`:
 ```c++
-data_mhs.erase("M0520047");
+data_mhs.erase("M0525025");
 ```
 
 ### Iteration
