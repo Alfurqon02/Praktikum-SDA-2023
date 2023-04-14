@@ -1,1 +1,0 @@
-    // Mahasiswa mhs = data_mhs["M0525025"];
