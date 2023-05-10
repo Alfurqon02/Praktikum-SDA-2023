@@ -154,7 +154,7 @@ Di sini kita akan mencoba menerapkan gambar Tree di atas dalam struktur data yan
 
 ```cpp
 // ...
-Node root(5);
+Node root(2);
 Node child_0(7);
 Node child_1(5);
 Node child_2(2);
