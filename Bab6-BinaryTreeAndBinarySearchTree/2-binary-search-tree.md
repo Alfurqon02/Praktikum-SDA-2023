@@ -139,8 +139,6 @@ int main()
 	b.Inorder(root);
 	return 0;
 }
-
-// This code is contributed by pkthapa
 ```
 
 Output:
