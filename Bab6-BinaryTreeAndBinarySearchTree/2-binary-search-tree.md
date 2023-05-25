@@ -303,11 +303,11 @@ struct node* deleteNode(struct node* root, int key)
 int main()
 {
 	/* Let us create following BST
-			50
-		/	 \
-		30	 70
-		/ \ / \
-	20 40 60 80 */
+		    50
+		   /  \
+		 30    70
+		/ \    / \
+	       20 40  60 80 */
 	struct node* root = NULL;
 	root = insert(root, 50);
 	root = insert(root, 30);
