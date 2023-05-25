@@ -124,7 +124,6 @@ void BST ::Inorder(BST* root)
 	Inorder(root->right);
 }
 
-// Driver code
 int main()
 {
 	BST b, *root = NULL;
