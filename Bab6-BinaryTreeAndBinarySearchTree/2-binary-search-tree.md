@@ -181,8 +181,3 @@ Ketika kami menghapus sebuah node, tiga kemungkinan muncul.
                  /  \                            \ 
                 60   80                           80
 ```
-
-## Tugas
-Implementasikan kode untuk kasus deletion BST diatas.<br>
-1. Gunakan bahasa C++
-2. Kumpulkan tugas dalam Google Classroom dengan file `.cpp` dengan format **PSDA06_NIM_Nama-Lengkap.cpp** (**Satu** file saja).
