@@ -16,3 +16,8 @@
 - Bab 4 - Set dan Map
     1. [Set](https://github.com/Alfurqon02/Praktikum-SDA-2023/blob/main/Bab4-SetMap/1-set.md)
     2. [Map](https://github.com/Alfurqon02/Praktikum-SDA-2023/blob/main/Bab4-SetMap/2-map.md)
+- Bab 5 - Tree
+    1. [Tree](https://github.com/Alfurqon02/Praktikum-SDA-2023/blob/main/Bab5-Tree/1-tree.md)
+- Bab 6 - Binary Tree dan Binary Search Tree
+    1. [Binary Tree](https://github.com/Alfurqon02/Praktikum-SDA-2023/blob/main/Bab6-BinaryTreeAndBinarySearchTree/1-binary-tree.md)
+    2. [Binary Search Tree](https://github.com/Alfurqon02/Praktikum-SDA-2023/blob/main/Bab6-BinaryTreeAndBinarySearchTree/2-binary-search-tree.md)
