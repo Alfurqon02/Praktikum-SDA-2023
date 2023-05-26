@@ -37,17 +37,17 @@ int main() {
     child1->left = child11;
     child1->right = child12;
     child2->left = child21;
-    // child2->right = child22;
-    root->right->right = child22;
+    child2->right = child22;
+    // root->right->right = child22;
 
     // Akses data pada simpul-simpul binary tree
-    std::cout << "Root: " << root->data << std::endl;
+    std::cout << "> " << root->data << std::endl;
     std::cout << "Root->Left: " << root->left->data << std::endl;
     std::cout << "Root->Right: " << root->right->data << std::endl;
     std::cout << "Root->Left->Left: " << root->left->left->data << std::endl;
     std::cout << "Root->Left->Right: " << root->left->right->data << std::endl;
-    // std::cout << "Root->Right->Left: " << root->right->left->data << std::endl;
-    // std::cout << "Root->Right->Right: " << root->right->right->data << std::endl;
+    std::cout << "Root->Right->Left: " << root->right->left->data << std::endl;
+    std::cout << "Root->Right->Right: " << root->right->right->data << std::endl;
 
     return 0;
 }

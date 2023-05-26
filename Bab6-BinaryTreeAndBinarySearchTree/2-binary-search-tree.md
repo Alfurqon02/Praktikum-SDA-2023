@@ -339,3 +339,18 @@ int main()
 // This code is contributed by shivanisinghss2110
 
 ```
+
+Output:
+```
+Inorder traversal of the given tree 
+20 30 40 50 60 70 80
+Delete 20
+Inorder traversal of the modified tree
+30 40 50 60 70 80
+Delete 30
+Inorder traversal of the modified tree
+40 50 60 70 80
+Delete 50
+Inorder traversal of the modified tree
+40 60 70 80
+```
