@@ -84,19 +84,34 @@ Setelah memahami konsep dasar Disjoint Set, penting untuk mempelajari beberapa o
 
 Disjoint Set memiliki dua operasi utama yang umum digunakan:
 
-1. **Find**: Operasi ini digunakan untuk mencari perwakilan (representative) dari suatu elemen atau mencari kelompok mana elemen tersebut termasuk. Dengan menggunakan operasi ini, kita dapat mengetahui apakah dua elemen berada dalam kelompok yang sama atau tidak. Operasi ini umumnya memiliki kompleksitas waktu yang cepat, seperti O(α(n)), di mana α(n) adalah inverse dari fungsi Ackermann.
+1. **Find**: Operasi ini digunakan untuk mencari perwakilan (representative) dari suatu elemen atau mencari kelompok mana elemen tersebut termasuk. Dengan menggunakan operasi ini, kita dapat mengetahui apakah dua elemen berada dalam kelompok yang sama atau tidak. Operasi ini umumnya memiliki kompleksitas waktu yang cepat, seperti O(α(n)), di mana α(n) adalah inverse dari fungsi Ackermann.  
 
-2. **Union**: Operasi ini digunakan untuk menggabungkan dua kelompok (atau pohon) menjadi satu kelompok. Dengan melakukan operasi ini, kita mengubah perwakilan satu kelompok untuk menunjuk ke perwakilan kelompok lainnya. Operasi ini juga umumnya memiliki kompleksitas waktu yang cepat, seperti O(α(n)), di mana α(n) adalah inverse dari fungsi Ackermann.
+Operasi `find` digunakan untuk mencari tahu keanggotaan suatu elemen dalam Disjoint Set, yaitu menemukan kelompok mana elemen tersebut termasuk. Operasi `find` memungkinkan kita untuk mengetahui apakah dua elemen berada dalam kelompok yang sama atau tidak.  
+
+Misalnya, kita ingin mengecek apakah elemen A dan elemen B berada dalam kelompok yang sama. Dengan menggunakan operasi `find`, kita mencari perwakilan dari elemen A dan perwakilan dari elemen B. Jika perwakilan keduanya sama, maka itu berarti elemen A dan elemen B berada dalam kelompok yang sama. Jika perwakilan keduanya berbeda, maka elemen A dan elemen B berada dalam kelompok yang berbeda.
+
+2. **Union**: Operasi ini digunakan untuk menggabungkan dua kelompok (atau pohon) menjadi satu kelompok. Dengan melakukan operasi ini, kita mengubah perwakilan satu kelompok untuk menunjuk ke perwakilan kelompok lainnya. Operasi ini juga umumnya memiliki kompleksitas waktu yang cepat, seperti O(α(n)), di mana α(n) adalah inverse dari fungsi Ackermann.  
+
+Operasi `union` digunakan untuk menggabungkan dua kelompok dalam Disjoint Set menjadi satu kelompok. Dalam konteks ini, kita memiliki sejumlah elemen yang terpisah dan dikelompokkan berdasarkan kesamaan tertentu. Operasi union memungkinkan kita untuk menggabungkan dua kelompok berbeda menjadi satu kelompok yang lebih besar.  
+
+Misalnya, kita memiliki kelompok A dan kelompok B yang berbeda dalam Disjoint Set. Ketika kita melakukan operasi `union` antara kelompok A dan kelompok B, maka semua elemen dalam kelompok A akan menjadi bagian dari kelompok B. Dalam hal ini, perwakilan atau elemen yang mewakili kelompok A akan menunjuk ke perwakilan kelompok B.
 
 ### Analisis Waktu dan Ruang
 
 Kompleksitas waktu dan ruang adalah aspek penting dalam memilih dan mengimplementasikan Disjoint Set. Beberapa implementasi yang umum digunakan, seperti *weighted union*, *path compression*, atau *rank-based union*, dapat mempengaruhi performa struktur data ini. 
 
-- *Weighted Union*: Salah satu teknik yang dapat digunakan adalah *weighted union*, di mana saat melakukan operasi *union*, kita menyatukan dua kelompok berdasarkan bobot (size atau rank) masing-masing kelompok. Dengan menggunakan teknik ini, kita dapat mengurangi tinggi pohon yang terbentuk dan mempercepat operasi *find*.
+- *Weighted Union*: Salah satu teknik yang dapat digunakan adalah *weighted union*, di mana saat melakukan operasi *union*, kita menyatukan dua kelompok berdasarkan bobot (size atau rank) masing-masing kelompok. Dengan menggunakan teknik ini, kita dapat mengurangi tinggi pohon yang terbentuk dan mempercepat operasi *find*.  
 
-- *Path Compression*: Teknik ini digunakan untuk memperpendek jalur pencarian saat melakukan operasi *find*. Saat mencari perwakilan dari suatu elemen, kita dapat mengubah semua elemen di jalur pencarian tersebut untuk langsung menunjuk ke perwakilan, sehingga mengurangi waktu yang dibutuhkan untuk pencarian selanjutnya.
+Teknik weighted union adalah salah satu cara untuk mengoptimalkan operasi union pada Disjoint Set. Dalam implementasi ini, setiap kelompok memiliki informasi tentang bobot atau ukuran kelompok tersebut. Ketika kita melakukan operasi union antara dua kelompok, kita mempertimbangkan bobot masing-masing kelompok. Kelompok dengan bobot yang lebih kecil akan ditambahkan ke kelompok dengan bobot yang lebih besar.  
+Dengan menggunakan teknik weighted union, kita dapat mengurangi tinggi pohon yang terbentuk saat menggabungkan kelompok. Ini dapat mengoptimalkan kinerja operasi find karena pohon akan menjadi lebih rata dan tidak terlalu dalam. Kompleksitas waktu yang umum digunakan untuk operasi union dan find dalam teknik ini adalah O(α(n)), di mana α(n) adalah inverse dari fungsi Ackermann.
 
-Pemilihan teknik implementasi dan analisis kompleksitas waktu dan ruang dapat mempengaruhi efisiensi dan kinerja Disjoint Set pada skenario penggunaan tertentu.
+- *Path Compression*: Teknik ini digunakan untuk memperpendek jalur pencarian saat melakukan operasi *find*. Saat mencari perwakilan dari suatu elemen, kita dapat mengubah semua elemen di jalur pencarian tersebut untuk langsung menunjuk ke perwakilan, sehingga mengurangi waktu yang dibutuhkan untuk pencarian selanjutnya.  
+
+Teknik path compression adalah cara lain untuk mengoptimalkan operasi find pada Disjoint Set. Saat kita melakukan operasi find untuk mencari perwakilan suatu elemen, kita dapat melakukan langkah tambahan yaitu mengubah semua elemen dalam jalur pencarian tersebut agar langsung menunjuk ke perwakilan. Dengan kata lain, setiap elemen dalam jalur pencarian akan secara langsung terhubung ke perwakilan, mengurangi tinggi pohon.  
+
+Dengan menggunakan teknik path compression, operasi find dapat menjadi lebih efisien karena mengurangi tinggi pohon secara signifikan. Dalam banyak kasus, kompleksitas waktu operasi find dengan path compression dapat diperkirakan sebagai konstan, yaitu O(1). Namun, secara teoritis, kompleksitas waktu terburuk adalah O(log n).
+
+Dalam hal analisis ruang, teknik weighted union dan path compression tidak memerlukan alokasi memori tambahan yang signifikan. Mereka hanya memerlukan ruang yang sebanding dengan jumlah elemen dalam Disjoint Set, yaitu O(n). Pemilihan teknik implementasi dan analisis kompleksitas waktu dan ruang dapat mempengaruhi efisiensi dan kinerja Disjoint Set pada skenario penggunaan tertentu.
 
 ### Contoh Implementasi Lain
 
