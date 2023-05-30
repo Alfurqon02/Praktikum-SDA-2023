@@ -4,11 +4,11 @@
 
 Graf (atau graf) adalah suatu struktur data yang mendefinisikan **hubungan** antara suatu data dengan data lainnya. Suatu graf terdiri dari sekumpulan simpul (node) dan sisi (edge) yang menghubungkan antara simpul-simpul tersebut. Contoh di bawah ini mengilustrasikan sebuah pertandingan pada tahap grup UEFA Champions League:
 
-![Ilustrasi Graf Berarah](files/contoh-graf-directed.png)
+![Ilustrasi Graf Berarah](https://github.com/Alfurqon02/Praktikum-SDA-2023/blob/main/Bab7-GraphAndDisjointSet/img/directed-graph.png)
 
 Contoh di atas merupakan contoh graf berjenis **graf berarah (directed graph)** karena setiap sisi (hasil pertandingan) memiliki **arah** dari satu simpul (klub sepak bola) ke simpul lainnya. Berikut contoh lainnya adalah graf Kota Surakarta:
 
-![Ilustrasi Graf Tidak Berarah](files/contoh-graf-undirected.png)
+![Ilustrasi Graf Tidak Berarah](https://github.com/Alfurqon02/Praktikum-SDA-2023/blob/main/Bab7-GraphAndDisjointSet/img/undirected-graph.png)
 
 Contoh di atas merupakan contoh graf berjenis **graf tidak berarah (undirected graph)** karena setiap sisi (jarak antar tempat) tidak memiliki arah dari satu simpul (nama tempat) ke simpul lainnya.
 
