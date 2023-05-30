@@ -102,7 +102,7 @@ Misalnya, kita memiliki kelompok A dan kelompok B yang berbeda dalam Disjoint Se
 
 Kompleksitas waktu dan ruang adalah aspek penting dalam memilih dan mengimplementasikan Disjoint Set. Beberapa implementasi yang umum digunakan, seperti *weighted union*, *path compression*, atau *rank-based union*, dapat mempengaruhi performa struktur data ini. 
 
-#### Weighted Union*
+#### Weighted Union
 Salah satu teknik yang dapat digunakan adalah *weighted union*, di mana saat melakukan operasi *union*, kita menyatukan dua kelompok berdasarkan bobot (size atau rank) masing-masing kelompok. Dengan menggunakan teknik ini, kita dapat mengurangi tinggi pohon yang terbentuk dan mempercepat operasi *find*.  
 
 Teknik weighted union adalah salah satu cara untuk mengoptimalkan operasi union pada Disjoint Set. Dalam implementasi ini, setiap kelompok memiliki informasi tentang bobot atau ukuran kelompok tersebut. Ketika kita melakukan operasi union antara dua kelompok, kita mempertimbangkan bobot masing-masing kelompok. Kelompok dengan bobot yang lebih kecil akan ditambahkan ke kelompok dengan bobot yang lebih besar.  
