@@ -1,5 +1,3 @@
-Berikut adalah perbaikan pada materi Disjoint Set di markdown:
-
 # 2 - Disjoint Set
 
 ## Konsep Disjoint Set
@@ -78,6 +76,37 @@ if (find("Andi") == find("Deni")) {
 }
 ```
 
+## Analisis dan Operasi Disjoint Set
+
+Setelah memahami konsep dasar Disjoint Set, penting untuk mempelajari beberapa operasi dan analisis yang terkait dengan struktur data ini. Berikut ini adalah beberapa hal yang perlu diperhatikan:
+
+### Operasi Utama
+
+Disjoint Set memiliki dua operasi utama yang umum digunakan:
+
+1. **Find**: Operasi ini digunakan untuk mencari perwakilan (representative) dari suatu elemen atau mencari kelompok mana elemen tersebut termasuk. Dengan menggunakan operasi ini, kita dapat mengetahui apakah dua elemen berada dalam kelompok yang sama atau tidak. Operasi ini umumnya memiliki kompleksitas waktu yang cepat, seperti O(α(n)), di mana α(n) adalah inverse dari fungsi Ackermann.
+
+2. **Union**: Operasi ini digunakan untuk menggabungkan dua kelompok (atau pohon) menjadi satu kelompok. Dengan melakukan operasi ini, kita mengubah perwakilan satu kelompok untuk menunjuk ke perwakilan kelompok lainnya. Operasi ini juga umumnya memiliki kompleksitas waktu yang cepat, seperti O(α(n)), di mana α(n) adalah inverse dari fungsi Ackermann.
+
+### Analisis Waktu dan Ruang
+
+Kompleksitas waktu dan ruang adalah aspek penting dalam memilih dan mengimplementasikan Disjoint Set. Beberapa implementasi yang umum digunakan, seperti *weighted union*, *path compression*, atau *rank-based union*, dapat mempengaruhi performa struktur data ini. 
+
+- *Weighted Union*: Salah satu teknik yang dapat digunakan adalah *weighted union*, di mana saat melakukan operasi *union*, kita menyatukan dua kelompok berdasarkan bobot (size atau rank) masing-masing kelompok. Dengan menggunakan teknik ini, kita dapat mengurangi tinggi pohon yang terbentuk dan mempercepat operasi *find*.
+
+- *Path Compression*: Teknik ini digunakan untuk memperpendek jalur pencarian saat melakukan operasi *find*. Saat mencari perwakilan dari suatu elemen, kita dapat mengubah semua elemen di jalur pencarian tersebut untuk langsung menunjuk ke perwakilan, sehingga mengurangi waktu yang dibutuhkan untuk pencarian selanjutnya.
+
+Pemilihan teknik implementasi dan analisis kompleksitas waktu dan ruang dapat mempengaruhi efisiensi dan kinerja Disjoint Set pada skenario penggunaan tertentu.
+
+### Contoh Implementasi Lain
+
+Selain implementasi dengan menggunakan `map` atau `array` seperti yang telah dijelaskan sebelumnya, terdapat beberapa struktur data lain yang dapat digunakan untuk implementasi Disjoint Set, seperti *disjoint-set forest* menggunakan *array of sets* atau *disjoint-set forest* menggunakan *forest of trees*.
+
 ## Selengkapnya
 
+Untuk informasi lebih lanjut tentang Disjoint Set, termasuk algoritma Union-Find, analisis kompleksitas, dan variasi implementasi, Anda dapat merujuk ke sumber-sumber berikut:
+
 - [Disjoint Set (e-Book Pemrograman Kompetitif Dasar)](https://ksn.toki.id/data/pemrograman-kompetitif-dasar.pdf)
+- [Disjoint Set Data Structure (GeeksforGeeks)](https://www.geeksforgeeks.org/disjoint-set-data-structures/)
+- [Union-Find (CP Algorithms)](https://cp-algorithms.com/data_structures/disjoint_set_union.html)
+- [Disjoint Set Union - Union Find (AlgoExpert)](https://www.algoexpert.io/data-structures/disjoint-set-union)
