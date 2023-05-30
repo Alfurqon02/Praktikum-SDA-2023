@@ -126,7 +126,6 @@ Selain implementasi dengan menggunakan `map` atau `array` seperti yang telah dij
 
 Untuk informasi lebih lanjut tentang Disjoint Set, termasuk algoritma Union-Find, analisis kompleksitas, dan variasi implementasi, Anda dapat merujuk ke sumber-sumber berikut:
 
-- [Disjoint Set (e-Book Pemrograman Kompetitif Dasar)](https://ksn.toki.id/data/pemrograman-kompetitif-dasar.pdf)
 - [Disjoint Set Data Structure (GeeksforGeeks)](https://www.geeksforgeeks.org/disjoint-set-data-structures/)
 - [Union-Find (CP Algorithms)](https://cp-algorithms.com/data_structures/disjoint_set_union.html)
 - [Disjoint Set Union - Union Find (AlgoExpert)](https://www.algoexpert.io/data-structures/disjoint-set-union)
