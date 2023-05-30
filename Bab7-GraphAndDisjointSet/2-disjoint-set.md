@@ -106,6 +106,7 @@ Kompleksitas waktu dan ruang adalah aspek penting dalam memilih dan mengimplemen
 Salah satu teknik yang dapat digunakan adalah *weighted union*, di mana saat melakukan operasi *union*, kita menyatukan dua kelompok berdasarkan bobot (size atau rank) masing-masing kelompok. Dengan menggunakan teknik ini, kita dapat mengurangi tinggi pohon yang terbentuk dan mempercepat operasi *find*.  
 
 Teknik weighted union adalah salah satu cara untuk mengoptimalkan operasi union pada Disjoint Set. Dalam implementasi ini, setiap kelompok memiliki informasi tentang bobot atau ukuran kelompok tersebut. Ketika kita melakukan operasi union antara dua kelompok, kita mempertimbangkan bobot masing-masing kelompok. Kelompok dengan bobot yang lebih kecil akan ditambahkan ke kelompok dengan bobot yang lebih besar.  
+
 Dengan menggunakan teknik weighted union, kita dapat mengurangi tinggi pohon yang terbentuk saat menggabungkan kelompok. Ini dapat mengoptimalkan kinerja operasi find karena pohon akan menjadi lebih rata dan tidak terlalu dalam. Kompleksitas waktu yang umum digunakan untuk operasi union dan find dalam teknik ini adalah O(α(n)), di mana α(n) adalah inverse dari fungsi Ackermann.
 
 #### Path Compression
