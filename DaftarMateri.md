@@ -21,3 +21,6 @@
 - Bab 6 - Binary Tree dan Binary Search Tree
     1. [Binary Tree](https://github.com/Alfurqon02/Praktikum-SDA-2023/blob/main/Bab6-BinaryTreeAndBinarySearchTree/1-binary-tree.md)
     2. [Binary Search Tree](https://github.com/Alfurqon02/Praktikum-SDA-2023/blob/main/Bab6-BinaryTreeAndBinarySearchTree/2-binary-search-tree.md)
+- Bab 7 - Graph dan Disjoint Set
+    1. [Graph](https://github.com/Alfurqon02/Praktikum-SDA-2023/blob/main/Bab7-GraphAndDisjointSet/1-graph.md)
+    2. [Disjoint Set](https://github.com/Alfurqon02/Praktikum-SDA-2023/blob/main/Bab7-GraphAndDisjointSet/2-disjoint-set.md)
