@@ -24,3 +24,7 @@
 - Bab 7 - Graph dan Disjoint Set
     1. [Graph](https://github.com/Alfurqon02/Praktikum-SDA-2023/blob/main/Bab7-GraphAndDisjointSet/1-graph.md)
     2. [Disjoint Set](https://github.com/Alfurqon02/Praktikum-SDA-2023/blob/main/Bab7-GraphAndDisjointSet/2-disjoint-set.md)
+- Bab 8 - Sorting
+    1. [Bubblesort]()
+    2. [Selection Sort]()
+    3. [Insertion Sprt]()
