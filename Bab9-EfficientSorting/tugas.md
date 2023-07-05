@@ -1,4 +1,4 @@
-# Tugas
+# Tugas Implementasi Sorting
 
 Implementasikan algoritma sorting berikut ini menggunakan struktur data yang sesuai (misalnya, array, linked list, atau tree):
 
@@ -14,7 +14,10 @@ Implementasikan algoritma sorting berikut ini menggunakan struktur data yang ses
 
 Pastikan untuk menguji setiap implementasi dengan memberikan input yang berbeda, termasuk input terbaik, terburuk, dan rata-rata, serta membandingkan hasilnya.
 
-### Format Pengumpulan
+## Format Pengumpulan
 Kelas_PSDA06_NIM_NamaLengkap.cpp
 
 Contoh: C_PSDA06_L0522001_AndrianKornelis.cpp
+
+## Batas Pengumpulan
+12 Juli 2023, 23:59pm
